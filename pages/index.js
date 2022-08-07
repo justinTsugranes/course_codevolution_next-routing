@@ -38,7 +38,7 @@ Next.js uses a file based routing system.
 
 - Catch All Routes - add three dots (like a spread operator) inside square brackets to create a catch all route. They're helpful if you want different URLs for the same page layout or even when you're working with pages where some of the route parameters are optional.
 
-To navigate to other routes (pages), we wrap the heading for those pages in a Link (capital 'L') component and have the href point to the corresponding internal page via '/PAGE'
+To navigate to other routes (pages), we wrap the heading for those pages in a Link (capital 'L' to distinguish from plain HTMl and JavsScript) component and have the href point to the corresponding internal page via '/PAGE'
 
 Place Order Button: first, we add the button and give it a click handler. Next, we define the handler through a const. Within, the order body, we're assuming the order was placed successfully and log 'placing your order'. Then, the user should be programmatically navigated to the products page.
 

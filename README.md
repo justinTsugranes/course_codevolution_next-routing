@@ -15,6 +15,15 @@ It is the best tutorial series on Next.js by far and is over 70 videos long.
 - Navigating Programmatically
 - Custom 404 Pages
 - Pre-rendering and Data Fetching
+  - Types of Pre-Rendering
+    - Static Generation
+      - with and without data
+      - Incremental Static Generation
+      - Dynamic Paramters when fetching data
+    - Server-side Rendering
+      - Data fetching
+    - Client-side Data Fetching
+    - Combining pre-rendering with client-side data fetching
 - Static Generation
 - Static Generation with g etStaticProps
 - Pages vs Components
